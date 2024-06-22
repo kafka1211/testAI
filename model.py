@@ -5,6 +5,8 @@ import torch.nn.functional as F
 from torchvision import models, transforms
 from PIL import Image
 
+# this is a test.
+
 classes_ja = ["Tシャツ/トップ", "ズボン", "プルオーバー", "ドレス", "コート", "サンダル", "ワイシャツ", "スニーカー", "バッグ", "アンクルブーツ"]
 classes_en = ["T-shirt/top", "Trouser", "Pullover", "Dress", "Coat", "Sandal", "Shirt", "Sneaker", "Bag", "Ankle boot"]
 n_class = len(classes_ja)
